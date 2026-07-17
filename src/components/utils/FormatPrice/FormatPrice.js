@@ -1,3 +1,3 @@
-export const formatPrice = (price) => {
+export const FormatPrice = (price) => {
   return `৳${price.toLocaleString("en-BD")}`;
 };

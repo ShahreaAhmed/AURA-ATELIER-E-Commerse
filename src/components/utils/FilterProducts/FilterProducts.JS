@@ -1,4 +1,4 @@
-export const filterProducts = (products, category, priceRange, stockOnly) => {
+export const FilterProducts = (products, category, priceRange, stockOnly) => {
   return products.filter((product) => {
     const matchesCategory = category === "All" || product.category === category;
 
