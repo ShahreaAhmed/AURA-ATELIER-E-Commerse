@@ -9,7 +9,25 @@ const MainLayout = () => {
         <div>
             <Navbar></Navbar>
             <Outlet></Outlet>
-            <Toaster></Toaster>
+            <Toaster position="bottom-right"
+                toastOptions={{
+                    style: {
+                        background: "#ffffff",
+                        color: "#1c1917",
+                        borderRadius: "12px",
+                        border: "1px solid #e5e5e5",
+                        padding: "12px 16px",
+                        fontSize: "14px",
+                        boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02)",
+                        maxWidth: "360px",
+                    },
+                    success: {
+                        iconTheme: {
+                            primary: "#10b981",
+                            secondary: "#ffffff",
+                        },
+                    },
+                }}></Toaster>
             <Footer></Footer>
         </div>
     );

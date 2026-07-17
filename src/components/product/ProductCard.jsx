@@ -31,7 +31,7 @@ const ProductCard = ({product}) => {
       className="group cursor-pointer flex flex-col bg-white border border-neutral-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
     >
       {
-        /* Image Gallery Wrapper */
+        /* Image Gallery*/
       }
       <div className="relative aspect-[3/4] overflow-hidden bg-neutral-50">
         <img
@@ -43,7 +43,7 @@ const ProductCard = ({product}) => {
         />
 
         {
-          /* Hover overlay actions */
+          /* Hover overlay */
         }
         <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3">
           <button
@@ -72,7 +72,7 @@ const ProductCard = ({product}) => {
         </div>
 
         {
-          /* Tag Badges */
+          /* Badges */
         }
         <div className="absolute top-3 left-3 flex flex-col gap-1.5 pointer-events-none">
           {product.featured && <span className="bg-brand-gold text-brand-charcoal text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded shadow-sm">
@@ -84,7 +84,7 @@ const ProductCard = ({product}) => {
         </div>
 
         {
-          /* Floating Heart Icon for Mobile touch (static instead of hover-only) */
+          /* Heart Icon for Mobile touch hover */
         }
         <button
           onClick={handleWishlistToggle}
@@ -100,7 +100,7 @@ const ProductCard = ({product}) => {
       }
       <div className="p-4 flex flex-col flex-1">
         {
-          /* Category & Rating */
+          /* Category and Rating */
         }
         <div className="flex items-center justify-between gap-2 text-[10px] tracking-wider uppercase font-semibold text-neutral-400 mb-1">
           <span>{product.category}</span>
@@ -118,7 +118,7 @@ const ProductCard = ({product}) => {
         </h3>
 
         {
-          /* Price & Stock status */
+          /* Price & Stock */
         }
         <div className="mt-auto flex items-baseline justify-between gap-2 pt-2 border-t border-neutral-50">
           <span className="font-sans text-xs text-neutral-400">Price</span>

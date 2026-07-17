@@ -5,10 +5,10 @@ import { Heart, Search, ShoppingBag } from 'lucide-react';
 
 const Navbar = () => {
     const links = <>
-        <li><NavLink>HOME</NavLink></li> 
+        <li><NavLink to={"/"}>HOME</NavLink></li> 
         <li><NavLink>SHOP COLLECTION</NavLink></li>
         <li><NavLink>MY WISHLIST</NavLink></li>
-        <li><NavLink>ABOUT</NavLink></li>
+        <li><NavLink to={"/about"}>ABOUT</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
