@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from "motion/react";
+import Rating from '../Rating/Rating';
 
 const ProductInfo = ({ product }) => {
 

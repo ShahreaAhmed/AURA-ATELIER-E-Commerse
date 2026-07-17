@@ -35,13 +35,13 @@ const ProductGrid = ({
             <div className="w-16 h-16 bg-neutral-50 rounded-full flex items-center justify-center text-neutral-400 mx-auto">
                 <ShoppingBag className="w-6 h-6" />
             </div>
-            <h3 className="font-serif text-xl font-bold text-brand-charcoal">No Products Found</h3>
+            <h3 className="plus-jakarta-sans text-xl font-bold text-secondary">No Products Found</h3>
             <p className="text-xs text-neutral-400 leading-relaxed">
-                We couldn't find any premium attire matching "<strong className="text-brand-charcoal">{searchQuery}</strong>" in the <strong className="text-brand-charcoal">{selectedCategory}</strong> collection.
+                We couldn't find any premium attire matching "<strong className="text-secondary">{searchQuery}</strong>" in the <strong className="text-secondary">{selectedCategory}</strong> collection.
             </p>
             {onClearFilters && <button
                 onClick={onClearFilters}
-                className="bg-brand-charcoal hover:bg-neutral-800 text-white font-bold text-xs uppercase tracking-wider px-6 py-2.5 rounded-lg transition-colors inline-block"
+                className="bg-secondary hover:bg-neutral-800 text-white font-bold text-xs uppercase tracking-wider px-6 py-2.5 rounded-lg transition-colors inline-block"
             >
                 Clear Search & Filters
             </button>}
