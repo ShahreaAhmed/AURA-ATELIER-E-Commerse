@@ -1,7 +1,8 @@
 import React from 'react';
 import { Heart, Star, Eye, ShoppingCart } from "lucide-react";
 import { motion } from "motion/react";
-import useCart from '../../hooks/useCart';
+import useCart from '../../../hooks/useCart';
+
 
 const ProductCard = ({product}) => {
 

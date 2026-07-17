@@ -1,7 +1,7 @@
 import React from 'react';
-import ProductCard from '../../product/ProductCard';
 import { ArrowRight } from 'lucide-react';
 import useCart from '../../../hooks/useCart';
+import ProductCard from '../../product/ProductCard/ProductCard';
 
 const FeaturedProducts = () => {
 
