@@ -1,0 +1,289 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Cotton Embroidered Panjabi",
+    "category": "Ethnic Wear",
+    "price": 3450,
+    "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.8,
+    "colors": ["Ivory White", "Navy Blue", "Deep Maroon"],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "inStock": true,
+    "description": "Crafted from premium long-staple cotton, this panjabi features exquisite hand-embellished embroidery along the placket and collar. Extremely breathable and tailored for an elegant semi-formal drape.",
+    "featured": true,
+    "reviews": [
+      {
+        "user": "Arif Rahman",
+        "rating": 5,
+        "comment": "Absolutely love the fabric quality. The embroidery is extremely neat.",
+        "date": "2026-06-12"
+      },
+      {
+        "user": "Nayeem Islam",
+        "rating": 4,
+        "comment": "Great fit, very comfortable for daytime events.",
+        "date": "2026-06-28"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Royal Mulberry Silk Jamdani Saree",
+    "category": "Ethnic Wear",
+    "price": 18500,
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.9,
+    "colors": ["Crimson Red", "Royal Blue", "Emerald Green"],
+    "sizes": ["One Size"],
+    "inStock": true,
+    "description": "Handwoven by master artisans, this pure mulberry silk Jamdani saree showcases intricate traditional geometric motifs. Features a rich zari border and a shimmering pallu that drapes beautifully.",
+    "featured": true,
+    "reviews": [
+      {
+        "user": "Tanzina Akter",
+        "rating": 5,
+        "comment": "An absolute masterpiece. The texture of the silk is sublime.",
+        "date": "2026-05-15"
+      }
+    ]
+  },
+   {
+    "id": 3,
+    "name": "Classic Indigo Denim Trucker Jacket",
+    "category": "Western Wear",
+    "price": 4990,
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.6,
+    "colors": ["Classic Indigo", "Stone Wash", "Midnight Black"],
+    "sizes": ["S", "M", "L", "XL"],
+    "inStock": true,
+    "description": "A timeless wardrobe essential constructed from durable heavyweight cotton denim. Features silver-tone button closures, button-flap chest pockets, and adjustable waist tabs for a customized fit.",
+    "featured": true,
+    "reviews": [
+      {
+        "user": "Sajid Hasan",
+        "rating": 5,
+        "comment": "Excellent build quality. Thick denim and great fitting.",
+        "date": "2026-07-02"
+      },
+      {
+        "user": "Rahul Sen",
+        "rating": 4,
+        "comment": "Nice wash. A bit stiff at first but breaks in beautifully.",
+        "date": "2026-07-10"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Premium Suede Penny Loafers",
+    "category": "Footwear",
+    "price": 6800,
+    "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.7,
+    "colors": ["Chocolate Brown", "Tan", "Slate Gray"],
+    "sizes": ["40", "41", "42", "43", "44"],
+    "inStock": true,
+    "description": "Handcrafted from top-grade Italian suede, these classic penny loafers feature a cushioned leather-lined footbed and a durable rubber sole for unmatched all-day comfort and sophistication.",
+    "featured": true,
+    "reviews": [
+      {
+        "user": "Imran Ahmed",
+        "rating": 5,
+        "comment": "Extremely comfortable right out of the box. Highly recommend the Tan color.",
+        "date": "2026-06-20"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Saffiano Leather Minimalist Tote",
+    "category": "Accessories",
+    "price": 8900,
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.5,
+    "colors": ["Jet Black", "Blush Pink", "Warm Taupe"],
+    "sizes": ["Medium", "Large"],
+    "inStock": true,
+    "description": "Sophisticated structured handbag made from scratch-resistant Saffiano leather. Designed with a roomy central compartment, interior zip pockets, and elegant gold-plated hardware.",
+    "featured": false,
+    "reviews": [
+      {
+        "user": "Farzana Yasmin",
+        "rating": 4,
+        "comment": "Spacious and sturdy, perfect for carrying my tablet and planner to work.",
+        "date": "2026-05-30"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Chronograph Calfskin Strap Watch",
+    "category": "Accessories",
+    "price": 12500,
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.8,
+    "colors": ["Classic Silver", "Rose Gold", "Stealth Black"],
+    "sizes": ["40mm"],
+    "inStock": true,
+    "description": "An elegant chronograph timepiece with a precise Japanese quartz movement. Paired with a genuine vegetable-tanned full-grain calfskin leather strap that ages beautifully with time.",
+    "featured": false,
+    "reviews": [
+      {
+        "user": "Zeeshan K.",
+        "rating": 5,
+        "comment": "A gorgeous watch. Gets compliments every single time I wear it.",
+        "date": "2026-07-05"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Premium Linen Summer Kurti",
+    "category": "Ethnic Wear",
+    "price": 2990,
+    "image": "https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1610030469668-93535c17b6b3?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.4,
+    "colors": ["Linen Beige", "Coral Pink", "Sage Green"],
+    "sizes": ["S", "M", "L", "XL"],
+    "inStock": true,
+    "description": "Designed for ultimate summer breeziness, this light linen kurti boasts delicate self-stripes and a modern straight-cut silhouette. Featuring button-tab folded sleeves and a subtle mandarin collar.",
+    "featured": false,
+    "reviews": []
+  },
+  {
+    "id": 8,
+    "name": "Classic White Retro Sneakers",
+    "category": "Footwear",
+    "price": 5500,
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.7,
+    "colors": ["Pure White", "Off-White Accent", "Vintage Green Accent"],
+    "sizes": ["39", "40", "41", "42", "43", "44"],
+    "inStock": true,
+    "description": "Retro-inspired court sneakers built with soft full-grain leather uppers and comfortable Ortholite insoles. Versatile and clean, making them the perfect companion for trousers, shorts, or chinos.",
+    "featured": false,
+    "reviews": [
+      {
+        "user": "Rashed Karim",
+        "rating": 5,
+        "comment": "Extremely clean look. They go with everything.",
+        "date": "2026-06-15"
+      }
+    ]
+  },
+   {
+    "id": 9,
+    "name": "Floral Pleated Silk Midi Dress",
+    "category": "Western Wear",
+    "price": 7900,
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.5,
+    "colors": ["Blossom Pink", "Sky Blue"],
+    "sizes": ["XS", "S", "M", "L"],
+    "inStock": true,
+    "description": "A feminine and flowing silhouette crafted from delicate georgette silk. Featuring a wrap-around neck bodice, beautiful micro-pleated skirt detail, and romantic balloon sleeves.",
+    "featured": false,
+    "reviews": []
+  },
+  {
+    "id": 10,
+    "name": "Unisex Oversized Cotton Hooded Sweatshirt",
+    "category": "Western Wear",
+    "price": 3200,
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.3,
+    "colors": ["Ash Grey", "Oatmeal Beige", "Vintage Black"],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "inStock": true,
+    "description": "Knitted from ultra-soft heavyweight French terry cotton. Styled in a loose oversized fit with drop shoulder detailing, a double-lined hood, and deep kangaroo pockets.",
+    "featured": false,
+    "reviews": []
+  },
+    {
+    "id": 11,
+    "name": "Tailored Double-Breasted Blazer",
+    "category": "Western Wear",
+    "price": 11500,
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.8,
+    "colors": ["Navy Blue", "Sand Beige", "Classic Houndstooth"],
+    "sizes": ["M", "L", "XL"],
+    "inStock": false,
+    "description": "A masterfully tailored formal blazer made of high-grade wool blend canvas. Styled with structured shoulders, peak lapels, double-breasted horn button closure, and a fully lined inner lining.",
+    "featured": false,
+    "reviews": [
+      {
+        "user": "Mahmudul H.",
+        "rating": 5,
+        "comment": "Fabulous custom-tailored feel. Extremely sharp silhouette.",
+        "date": "2026-06-05"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Exquisite Golden Zari Banarasi Sherwani",
+    "category": "Ethnic Wear",
+    "price": 32000,
+    "image": "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?auto=format&fit=crop&q=80&w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "rating": 4.9,
+    "colors": ["Antique Gold", "Ivory Cream"],
+    "sizes": ["M", "L", "XL"],
+    "inStock": true,
+    "description": "Celebrate grand occasions with this royal Banarasi silk sherwani, featuring intricate hand-woven pure gold zari work. Tailored with a structured chest panel, elegant side slits, and complete inner silk lining.",
+    "featured": true,
+    "reviews": [
+      {
+        "user": "Zahir Khan",
+        "rating": 5,
+        "comment": "Fits like royalty. The golden zari thread work is stunning under lighting.",
+        "date": "2026-05-18"
+      }
+    ]
+  }
+]
