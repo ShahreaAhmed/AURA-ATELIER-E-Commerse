@@ -1,10 +1,11 @@
 import React from 'react';
+import { FormatPrice } from '../../utils/FormatPrice/FormatPrice';
 
 const Price = ({ amount, className = "" }) => {
     return (
         <span className={`font-serif text-brand-charcoal ${className}`}>
-      {formatPrice(amount)}
-    </span>;
+      {FormatPrice(amount)}
+    </span>
     );
 };
 
