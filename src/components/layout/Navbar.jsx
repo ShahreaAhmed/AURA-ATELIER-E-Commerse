@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../logo/Logo";
+import Logo from "../../components/Logo/Logo";
 import { NavLink, useNavigate } from "react-router";
 import {
   Heart,
