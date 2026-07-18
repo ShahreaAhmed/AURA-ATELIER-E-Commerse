@@ -1,17 +1,32 @@
 import { ArrowRight, Sparkles } from "lucide-react";
 import React from "react";
 import { motion } from "motion/react";
+import { useNavigate } from "react-router";
+import useCart from "../../../hooks/useCart";
 
 const Banner = () => {
+  const navigate = useNavigate();
+  const { setSelectedCategory } = useCart();
+
+  const handleShopRedirect = (category) => {
+    if (category) {
+      setSelectedCategory(category);
+    } else {
+      setSelectedCategory("All");
+    }
+    navigate("/products");
+  };
+
   return (
     <div className="space-y-16">
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden rounded-3xl mx-4 my-4">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1600"
+            alt="Banner Background"
             className="w-full h-full object-cover object-center scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
-          ></img>
-          "
+          />
+
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/80 via-secondary/40 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal/20 to-transparent" />
         </div>
@@ -47,7 +62,7 @@ const Banner = () => {
             {/* Call to Actions btn*/}
             <div className="flex flex-wrap gap-4 pt-4">
               <button
-                // onClick={() => handleShopRedirect()}
+                onClick={() => handleShopRedirect()}
                 className="bg-primary hover:bg-accent text-secondary px-8 py-3 text-xs uppercase tracking-[0.15em] font-bold rounded-lg flex items-center gap-2 shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <span>Browse Store</span>
@@ -55,7 +70,7 @@ const Banner = () => {
               </button>
 
               <button
-                // onClick={() => handleShopRedirect("Ethnic Wear")}
+                onClick={() => handleShopRedirect("Ethnic Wear")}
                 className="bg-transparent hover:bg-white/10 text-white border border-white/40 px-8 py-3 text-xs uppercase tracking-[0.15em] font-bold rounded-lg transition-all duration-300"
               >
                 Explore Ethnic Heritage

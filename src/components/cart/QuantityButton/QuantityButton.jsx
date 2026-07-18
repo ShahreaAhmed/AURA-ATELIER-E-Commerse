@@ -14,7 +14,7 @@ const QuantityButton = ({
   >
         <Minus className="w-3.5 h-3.5" />
       </button>
-      <span className="px-4 font-bold text-xs text-brand-charcoal text-center min-w-[24px]">
+      <span className="px-4 font-bold text-xs text-secondary text-center min-w-[24px]">
         {quantity}
       </span>
       <button

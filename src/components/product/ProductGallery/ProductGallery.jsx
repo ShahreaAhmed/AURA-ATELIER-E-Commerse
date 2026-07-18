@@ -29,7 +29,7 @@ const ProductGallery = ({
                 {images.map((imgUrl, index) => <button
                     key={index}
                     onClick={() => onChange(imgUrl)}
-                    className={`relative w-20 h-24 rounded-lg overflow-hidden shrink-0 border-2 transition-all ${activeImage === imgUrl ? "border-brand-gold scale-95" : "border-transparent opacity-75 hover:opacity-100"}`}
+                    className={`relative w-20 h-24 rounded-lg overflow-hidden shrink-0 border-2 transition-all ${activeImage === imgUrl ? "border-primary scale-95" : "border-transparent opacity-75 hover:opacity-100"}`}
                 >
                     <img
                         src={imgUrl}

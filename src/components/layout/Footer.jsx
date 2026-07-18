@@ -166,33 +166,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* OXIVOS Agency Task Contact Card - Very high alignment with PDF instructions */}
-        {/* <div className="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between gap-6 my-8">
-          <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-brand-charcoal flex items-center justify-center border border-neutral-800 shadow-inner">
-              <span className="font-serif text-brand-gold font-bold text-lg">O</span>
-            </div>
-            <div>
-              <p className="text-xs text-neutral-400 tracking-wider">PROJECT COMPLETED FOR</p>
-              <h4 className="text-sm font-bold tracking-widest text-[#FAF6F0]">OXIVOS WEB DEVELOPMENT AGENCY</h4>
-            </div>
-          </div>
-          
-          <div className="flex flex-wrap justify-center gap-6 text-xs text-[#A3A3A3]">
-            <a href="https://oxivos.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-brand-gold transition-colors">
-              <Globe className="w-3.5 h-3.5 text-brand-gold" />
-              <span>oxivos.com</span>
-            </a>
-            <a href="mailto:hello@oxivos.com" className="flex items-center gap-2 hover:text-brand-gold transition-colors">
-              <Mail className="w-3.5 h-3.5 text-brand-gold" />
-              <span>hello@oxivos.com</span>
-            </a>
-            <a href="tel:01688399676" className="flex items-center gap-2 hover:text-brand-gold transition-colors">
-              <Phone className="w-3.5 h-3.5 text-brand-gold" />
-              <span>01688399676</span>
-            </a>
-          </div>
-        </div> */}
 
         {/* Legal Disclaimer */}
         <div className="flex flex-col sm:flex-row items-center justify-between pt-8 border-t border-neutral-800 text-[11px] text-[#737373] tracking-wider">

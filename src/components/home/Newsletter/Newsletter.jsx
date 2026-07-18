@@ -2,7 +2,7 @@ import React from 'react';
 
 const Newsletter = () => {
     return (
-        <section className="bg-orange py-12 px-6 rounded-3xl max-w-7xl mx-auto text-center space-y-4 my-12">
+        <section className="bg-orange py-12 px-6 rounded-3xl max-w-7xl mx-auto text-center space-y-4 md:mt-12 md:mb-52">
       <span className="text-[10px] tracking-widest text-accent font-bold">THE CLUB AURA</span>
       <h2 className="playfair-display text-2xl sm:text-3xl font-bold text-secondary">Unlock 20% Off Your First Order</h2>
       <p className="text-xs text-neutral-500 max-w-md mx-auto leading-relaxed">

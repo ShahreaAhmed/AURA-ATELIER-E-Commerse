@@ -30,10 +30,10 @@ const CartItem = ({
                 /* Item Details */
             }
             <div className="flex-1 space-y-1 w-full">
-                <span className="text-[9px] font-bold text-brand-gold uppercase tracking-widest block">
+                <span className="text-[9px] font-bold text-primary uppercase tracking-widest block">
                     {item.product.category}
                 </span>
-                <h3 className="font-serif text-sm font-semibold text-brand-charcoal line-clamp-1">
+                <h3 className="playfair-display text-sm font-semibold text-secondary line-clamp-1">
                     {item.product.name}
                 </h3>
                 <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-neutral-400 font-medium">
@@ -57,7 +57,7 @@ const CartItem = ({
                     >
                         <Minus className="w-3 h-3" />
                     </button>
-                    <span className="px-3 font-semibold text-xs text-brand-charcoal text-center min-w-[20px]">
+                    <span className="px-3 font-semibold text-xs text-secondary text-center min-w-[20px]">
                         {item.quantity}
                     </span>
                     <button
@@ -72,7 +72,7 @@ const CartItem = ({
                     /* Total Price */
                 }
                 <div className="text-right min-w-[80px]">
-                    <p className="font-serif text-sm font-bold text-brand-charcoal">
+                    <p className="playfair-display text-sm font-bold text-secondary">
                         ৳{(item.product.price * item.quantity).toLocaleString()}
                     </p>
                     <p className="text-[10px] text-neutral-400 font-medium">

@@ -7,7 +7,7 @@ export const CATEGORIES = [
 ];
 
 export const PROMO_CODES = {
-  EID2026: 0.15,
+  AURAATELIER20: 0.15,
   OXIVOSNEW: 0.1,
   FASHION5: 0.05,
 };

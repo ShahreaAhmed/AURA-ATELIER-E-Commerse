@@ -12,14 +12,14 @@ const ProductInfo = ({ product }) => {
   }
       <div className="space-y-2">
         <div className="flex items-center justify-between gap-4">
-          <span className="text-[10px] font-bold uppercase tracking-widest text-brand-gold-dark bg-brand-gold/10 px-2.5 py-1 rounded-md">
+          <span className="text-[10px] font-bold uppercase tracking-widest text-accent bg-primary/10 px-2.5 py-1 rounded-md">
             {product.category}
           </span>
           
           <div className="flex items-center gap-1.5 text-xs font-semibold">
             {product.inStock ? <>
                 <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                  <span className=" absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
                 </span>
                 <span className="text-emerald-600">In Stock</span>
@@ -30,7 +30,7 @@ const ProductInfo = ({ product }) => {
           </div>
         </div>
 
-        <h1 className="font-serif text-2xl sm:text-3xl font-semibold text-brand-charcoal leading-tight">
+        <h1 className="font-serif text-2xl sm:text-3xl font-semibold text-secondary leading-tight">
           {product.name}
         </h1>
 
@@ -50,7 +50,7 @@ const ProductInfo = ({ product }) => {
   }
       <div className="py-4 border-y border-neutral-100 flex items-baseline justify-between">
         <span className="text-xs text-neutral-400 uppercase tracking-widest font-semibold">Atelier Pricing</span>
-        <span className="font-serif text-3xl font-bold text-brand-charcoal">
+        <span className="playfair-display text-3xl font-bold text-secondary">
           ৳{product.price.toLocaleString()}
         </span>
       </div>
@@ -70,12 +70,12 @@ const ProductInfo = ({ product }) => {
           {["details", "materials", "shipping"].map((tab) => <button
     key={tab}
     onClick={() => setActiveTab(tab)}
-    className={`text-xs font-bold uppercase tracking-wider pb-1 relative capitalize ${activeTab === tab ? "text-brand-charcoal" : "text-neutral-400"}`}
+    className={`text-xs font-bold uppercase tracking-wider pb-1 relative capitalize ${activeTab === tab ? "text-secondary" : "text-neutral-400"}`}
   >
               {tab === "details" ? "The Story" : tab === "materials" ? "Fabric & Care" : "Shipping & Returns"}
               {activeTab === tab && <motion.div
     layoutId="tab-underline"
-    className="absolute bottom-0 left-0 right-0 h-[2px] bg-brand-gold"
+    className="absolute bottom-0 left-0 right-0 h-[2px] bg-primary"
   />}
             </button>)}
         </div>

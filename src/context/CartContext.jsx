@@ -116,10 +116,10 @@ export const CartProvider = ({ children }) => {
   };
   const applyPromoCode = (code) => {
     const formatted = code.trim().toUpperCase();
-    if (formatted === "EID2026") {
-      setAppliedPromo("EID2026");
+    if (formatted === "AURAATELIER20") {
+      setAppliedPromo("AURAATELIER20");
       setPromoDiscount(15);
-      addToast("Promo code EID2026 applied! 15% discount added.", "success");
+      addToast("Promo code AURAATELIER20 applied! 15% discount added.", "success");
       return true;
     } else if (formatted === "OXIVOSNEW") {
       setAppliedPromo("OXIVOSNEW");

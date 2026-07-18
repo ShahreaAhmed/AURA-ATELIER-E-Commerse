@@ -3,7 +3,8 @@ import React from "react";
 
 const TrustedSection = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div className="mt-8 mb-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center bg-white border border-neutral-100 rounded-3xl p-8 sm:p-12 shadow-sm">
         <div className="flex flex-col items-center space-y-4">
           <div className="w-14 h-14 bg-orange rounded-2xl flex items-center justify-center text-accent">
@@ -20,7 +21,7 @@ const TrustedSection = () => {
           <div className="w-14 h-14 bg-orange rounded-2xl flex items-center justify-center text-accent">
             <HeartHandshake className="w-6 h-6" />
           </div>
-          <h3 className="font-serif text-lg font-bold text-brand-charcoal">Artisanal Support</h3>
+          <h3 className="playfair-display text-lg font-bold text-secondary">Artisanal Support</h3>
           <p className="text-xs text-neutral-500 max-w-xs leading-relaxed">
             We directly partner with local weaver guilds, paying above-market fair-trade wages to keep cultural weaving alive.
           </p>
@@ -31,13 +32,14 @@ const TrustedSection = () => {
           <div className="w-14 h-14 bg-orange rounded-2xl flex items-center justify-center text-accent">
             <ShieldCheck className="w-6 h-6" />
           </div>
-          <h3 className="font-serif text-lg font-bold text-brand-charcoal">Ethical Sourcing</h3>
+          <h3 className="playfair-display text-lg font-bold text-secondary">Ethical Sourcing</h3>
           <p className="text-xs text-neutral-500 max-w-xs leading-relaxed">
             Using organic yarns, herbal dyes, and zero-waste cutting rooms to minimize our footprint and respect our climate.
           </p>
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

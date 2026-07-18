@@ -11,7 +11,7 @@ const Category = () => {
         setActivePage("products");
     };
     return (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-18">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {
                     /* Box 1 */
@@ -23,16 +23,16 @@ const Category = () => {
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                         referrerPolicy="no-referrer"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal/80 via-brand-charcoal/30 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-secondary/30 to-transparent" />
                     <div className="absolute bottom-6 left-6 right-6 text-white space-y-2">
-                        <span className="text-[9px] tracking-widest text-brand-gold uppercase font-bold block">Heritage Craft</span>
+                        <span className="text-[9px] tracking-widest text-primary uppercase font-bold block">Heritage Craft</span>
                         <h3 className="font-serif text-lg sm:text-xl font-bold">Classic Festive Cotton Edit</h3>
                         <p className="text-xs text-neutral-300 font-light max-w-sm">
                             Discover organic, intricately embroidered traditional Panjabis perfect for formal and festive occasions.
                         </p>
                         <button
                             onClick={() => handleShopRedirect("Ethnic Wear")}
-                            className="text-xs text-brand-gold font-bold uppercase tracking-wider flex items-center gap-1 pt-2 hover:underline"
+                            className="text-xs text-primary font-bold uppercase tracking-wider flex items-center gap-1 pt-2 hover:underline"
                         >
                             <span>Shop Ethnic Wear</span>
                             <ArrowRight className="w-3.5 h-3.5" />
@@ -50,16 +50,16 @@ const Category = () => {
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                         referrerPolicy="no-referrer"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal/80 via-brand-charcoal/30 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-secondary/30 to-transparent" />
                     <div className="absolute bottom-6 left-6 right-6 text-white space-y-2">
-                        <span className="text-[9px] tracking-widest text-brand-gold uppercase font-bold block">Modern Sartorial</span>
-                        <h3 className="font-serif text-lg sm:text-xl font-bold">Tailored Outerwear & Denim</h3>
+                        <span className="text-[9px] tracking-widest text-primary uppercase font-bold block">Modern Sartorial</span>
+                        <h3 className="playfair-display text-lg sm:text-xl font-bold">Tailored Outerwear & Denim</h3>
                         <p className="text-xs text-neutral-300 font-light max-w-sm">
                             Clean cut jackets, tailored blazers, and luxury accessories curated for contemporary lifestyle.
                         </p>
                         <button
                             onClick={() => handleShopRedirect("Western Wear")}
-                            className="text-xs text-brand-gold font-bold uppercase tracking-wider flex items-center gap-1 pt-2 hover:underline"
+                            className="text-xs text-primary font-bold uppercase tracking-wider flex items-center gap-1 pt-2 hover:underline"
                         >
                             <span>Shop Western Coordinates</span>
                             <ArrowRight className="w-3.5 h-3.5" />

@@ -2,6 +2,7 @@ import { Heart, ShoppingBag } from 'lucide-react';
 import React, { useState } from 'react';
 import SizeSelector from '../SizeSelector/SizeSelector';
 import ColorSelector from '../ColorSelector/ColorSelector';
+import useCart from '../../../hooks/useCart';
 
 const ProductAction = ({ product }) => {
 
@@ -53,7 +54,7 @@ const ProductAction = ({ product }) => {
                         >
                             -
                         </button>
-                        <span className="px-4 font-bold text-sm text-brand-charcoal text-center min-w-[24px]">
+                        <span className="px-4 font-bold text-sm text-secondary text-center min-w-[24px]">
                             {quantity}
                         </span>
                         <button
@@ -66,11 +67,11 @@ const ProductAction = ({ product }) => {
                     </div>
 
                     {
-                        /* Primary Add to Cart Action */
+                        /* Add to Cart Action */
                     }
                     <button
                         onClick={handleAddToCart}
-                        className="flex-1 bg-brand-charcoal hover:bg-neutral-800 text-[#FAF6F0] py-3.5 px-6 rounded-xl text-xs uppercase tracking-[0.2em] font-bold flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.98]"
+                        className="flex-1 bg-secondary hover:bg-neutral-800 text-[#FAF6F0] py-3.5 px-6 rounded-xl text-xs uppercase tracking-[0.2em] font-bold flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.98]"
                     >
                         <ShoppingBag className="w-4 h-4" />
                         <span>Add to Cart</span>
